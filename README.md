@@ -4,6 +4,10 @@
 
 * この yml を stack deploy すると adminer が立ち上がる
 
+```
+docker stack deploy -c stack.yml postgres
+```
+
 ![adminer-logged-in.png](./img/adminer-logged-in.png)
 
 * user と pass で login できる
